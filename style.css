@@ -1,0 +1,82 @@
+body{
+    text-align:center;
+    background:linear-gradient(#ff7300 0%, #ff0000 100%);
+    font-family:Brush Script MT;
+}
+
+.dc{
+    width:300px;
+    height:auto;
+}
+
+h1{
+    padding-top:100px;
+    font-size:35px;
+}
+
+p{
+    font-size:25px;
+    line-height:2;
+}
+
+.menu{
+    list-style:none;
+    position:fixed;
+    top:10px;
+    z-index:10;
+    cursor:pointer;
+    background-color:#ff8c00;
+    width:100%;
+}
+
+.links{
+    padding:5px 30px 5px 30px;
+    font-size:20px;
+    color:black;
+    display: inline;
+}
+
+.links:hover{
+    background-color:#eb6b02;
+    text-decoration:underline;
+}
+
+#welcome{
+ line-height:1px;   
+}
+
+a{
+    text-decoration:none;
+}
+
+#email{
+ color:blue;
+    text-decoration:underline; 
+}
+
+.projects{
+    list-style:none;
+    font-size:25px;
+    line-height:2;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+#contacts{
+ width:100%;   
+}
+
+.bookname{
+    font-size: 30px;
+}
+
+.aboutme{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    color:black;
+    background-color:#eb6b02;
+    border-radius:15px;
+}
